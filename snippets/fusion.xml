@@ -23,4 +23,13 @@
   <!-- Vendor -->
   <project path="vendor/fuse" name="android_vendor_fuse" remote="fusion" />
 
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="fusion" />
+
+  <!-- System Repos -->
+  <project path="system/netd" name="android_system_netd" remote="fusion" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="fusion" />
+
 </manifest>
