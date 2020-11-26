@@ -20,6 +20,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External repos -->
+  <project path="build/blueprint" name="android_build_blueprint" remote="fusion" clone-depth="1" groups="pdk,tradefed"/>
+  <project path="external/selinux" name="android_external_selinux" remote="fusion" />
+
   <!-- Vendor -->
   <project path="vendor/fuse" name="android_vendor_fuse" remote="fusion" />
 
