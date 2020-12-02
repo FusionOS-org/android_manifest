@@ -29,6 +29,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/base" name="android_frameworks_base" remote="fusion" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="fusion" />
 
   <!-- System Repos -->
   <project path="system/netd" name="android_system_netd" remote="fusion" />

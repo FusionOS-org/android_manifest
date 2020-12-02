@@ -88,6 +88,7 @@
   
  <!-- Framework repos -->
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Settings" />
